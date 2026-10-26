@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>skardela</title>
+<style>html,body{height:100%;margin:0;overflow:hidden}</style>
+<link rel="stylesheet" href="skardela.css">
+</head>
+<body>
+<div id="stage">
+  <header id="top">
+    <button type="button" id="restart" aria-label="Restart puzzle">↺</button>
+    <div id="nameblock">
+      <span id="pname">Latics</span>
+      <span id="pmeta">Easy</span>
+    </div>
+    <span id="time">0:00</span>
+  </header>
+  <div id="play">
+    <div id="boardwrap"><div id="board"></div></div>
+    <p id="status"></p>
+    <div id="tools"></div>
+    <div id="extra"></div>
+    <div id="keys"></div>
+  </div>
+  <p id="hintline">idea after @utk09-ncl (utk09-ncl/skardela); clean-room implementation, no code copied</p>
+</div>
+<button type="button" id="corner" aria-label="Show controls" aria-expanded="false">⚙</button>
+<div id="panel">
+  <div id="types" class="prow">
+    <button type="button" data-type="colour">Colour</button>
+    <button type="button" data-type="guzzle">Guzzle</button>
+    <button type="button" data-type="latics">Latics</button>
+  </div>
+  <div id="diffs" class="prow">
+    <button type="button" data-diff="e">Easy</button>
+    <button type="button" data-diff="m">Medium</button>
+    <button type="button" data-diff="h">Hard</button>
+  </div>
+  <div class="prow">
+    <button type="button" id="another">Another</button>
+    <button type="button" id="undoall">Undo</button>
+  </div>
+  <p id="todayline"></p>
+  <p id="dateline"></p>
+  <h2>How it works</h2>
+  <div id="rules"></div>
+  <div id="themes" class="prow">
+    <button type="button" data-theme="dark">Dark</button>
+    <button type="button" data-theme="light">Light</button>
+  </div>
+  <button type="button" id="clear">Clear stats</button>
+  <p class="fine">idea after @utk09-ncl (utk09-ncl/skardela); clean-room implementation, no code copied</p>
+</div>
+<!-- LICENSE.txt MIT, copyright ypaaaaaaaaaaaaa -->
+<script src="skardela.js"></script>
+</body>
+</html>
