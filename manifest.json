@@ -1,0 +1,20 @@
+{
+  "id": "skardela",
+  "title": {
+    "en": "skardela",
+    "zh": "斯卡德拉"
+  },
+  "intro": {
+    "en": "Three daily puzzles on your phone: colour grids, crossed words, and a laser you bounce into monsters. The same set all day, saved on this device.",
+    "zh": "每天三道手机谜题：填色方格、交叉单词，以及用镜子把激光射中怪物。同一天题目相同，记录留在这台设备上。"
+  },
+  "officialFiles": [
+    "vendor/index.html",
+    "vendor/skardela.css",
+    "vendor/skardela.js",
+    "vendor/LICENSE.txt"
+  ],
+  "playHtml": "play.html",
+  "aspect": "phone",
+  "githubRepo": "ypaaaaaaaaaaaaa/skardela"
+}
